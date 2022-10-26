@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-image: url(./img/MulherFeiaSorrindoBB_1920_664px-min-min.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* NAVBAR*/
+.main-navbar{
+    height: 65px;
+    width: 100%;
+    background: #fbfb33;
+    color: #525dff;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+}
+.main-navbar ul {
+    margin: 0;
+    padding: 0;
+}
+.main-navbar li{
+    float: left;
+    margin: 0;
+    font-size: 16px;
+    width: 12%;
+    list-style: none;
+    text-align: center;
+}
+.main-navbar .logo-navbar{
+    height: 60px;
+    position: absolute;
+    top: 0;
+}
+#blankSpace {
+    width: 80%;
+    height: 34px;
+}
+.main-navbar .texto {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* IMAGEM DE FUNDO 
+.banner img{
+    position: static;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+}
+*/
+
+/* TEXTO CENTRAL */
+.campanhas-contas{
+    margin-top: 150px;
+    text-align: start;
+    padding-left: 110px;
+    
+}
+.campanhas li{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+}
+.campanhas li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-block;
+}
+.conta-title{
+    color: #fbfb33;
+    font-size: 80px;
+    margin-top: 15px;
+}
+.conta-title-2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.qr {
+    width: 250px;
+    font-size: 7px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #fcfc30;
+    color: #585b65;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+.continue-navegando img {
+    rotate: 90deg;
+    padding-right: 5px;
+}
+.continue-navegando{
+    font-size: 15px;
+    color: rgb(100, 98, 98);
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 550px;
+    margin-top: 70px;
+
+}
+
+/*TEXTO BENEFICIOS*/
+.img-beneficios{
+    margin-top: 4px;
+    pointer-events: none;
+}
+.texto-na-parte-branca {
+    margin-left: 90px;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    color: #75777a;
+    font-size: 18px;
+    width: 700px;
+}
+.abrirContaPeloApp{
+    pointer-events: none;
+    margin-bottom: 50px;
+}
+
+/* PASSOS PARA ABRIR CONTA */
+.passosParaAbrirConta{
+    width: 100%;
+    pointer-events: none;
+}
+
+/*BOTAO FIXO*/
+.fixed-button{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*SEGUNDA IMAGEM e LISTA DUVIDAS */
+.segundaMulherFeia{
+    padding-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lista-duvidas{
+    width: 500px;
+    margin-left: 550px;
+    margin-top: -600px;
+    margin-bottom: 600px;
+    list-style: none;
+}
+.lista-duvidas li{
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.duvidas{
+    color: #525dff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.setas {
+    font-size: 20px;
+    margin-left: 1100px;
+    margin-top: -730px;
+    margin-bottom: 600px;
+    list-style: none;
+}
+.setas li{
+    color: #75777a;
+    margin-bottom: 30px;
+}
+
+/*ULTIMA FRASE */
+.ultima-frase{
+    width: 800px;
+    color: #585b65;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top: -200px;
+}
+.ultima-frase li{
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    
+}
+
+/*BOTTOM NAVBAR*/
+.bottom-navbar{
+    height: 80px;
+    width: 100%;
+    background: #525dff;
+    color: #fbfb33;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    transition: .3s;
+}
+.bottom-navbar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding-left: 300px;
+}
+.texto-bottom-navbar{
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.bottom-navbar li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.install {
+    background-color: #fbfb33;
+    border: none;
+    border-radius: 7px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.install a {
+    text-decoration: none;
+    color: #525dff;
+}
+
+/*FOOTER*/
+.footer{
+    text-align: center;
+    padding-top: 7px;
+    background-color: #fbfb33;
+    height: 30px;
+}
